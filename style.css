@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #07090c;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d8e6ff;
+}
+
+canvas {
+  display: block;
+}
+
+input, button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border: 1px solid rgba(140, 180, 240, 0.35);
+  background: rgba(8, 12, 18, 0.92);
+  color: #d8e6ff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(20, 34, 52, 0.95);
+}

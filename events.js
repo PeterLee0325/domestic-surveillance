@@ -1,0 +1,31 @@
+const events = [
+  { day: "Day 1", time: "07:40", type: "wake", location: "bedroom", intensity: 2, risk: "normal", note: "checked phone after waking up" },
+  { day: "Day 1", time: "08:20", type: "kitchen", location: "kitchen", intensity: 2, risk: "normal", note: "made a quick breakfast" },
+  { day: "Day 1", time: "09:10", type: "leave_home", location: "front door", intensity: 3, risk: "flagged", note: "left for class" },
+  { day: "Day 1", time: "10:00", type: "transport", location: "bus", intensity: 2, risk: "normal", note: "commuting to campus" },
+  { day: "Day 1", time: "11:40", type: "study", location: "library", intensity: 4, risk: "normal", note: "working on coursework" },
+  { day: "Day 1", time: "13:10", type: "phone_use", location: "campus", intensity: 4, risk: "flagged", note: "multiple timetable and message checks" },
+  { day: "Day 1", time: "18:35", type: "return_home", location: "front door", intensity: 3, risk: "flagged", note: "returned home after class" },
+  { day: "Day 1", time: "20:30", type: "shower", location: "bathroom", intensity: 2, risk: "normal", note: "evening shower" },
+  { day: "Day 1", time: "23:55", type: "screen_activity", location: "bedroom", intensity: 5, risk: "anomaly", note: "late-night scrolling before sleep" },
+
+  { day: "Day 2", time: "08:05", type: "wake", location: "bedroom", intensity: 2, risk: "normal", note: "alarm dismissed twice" },
+  { day: "Day 2", time: "08:50", type: "kitchen", location: "kitchen", intensity: 2, risk: "normal", note: "tea and toast" },
+  { day: "Day 2", time: "09:35", type: "leave_home", location: "front door", intensity: 3, risk: "flagged", note: "left later than usual for university" },
+  { day: "Day 2", time: "10:20", type: "transport", location: "bus", intensity: 2, risk: "normal", note: "travel to campus" },
+  { day: "Day 2", time: "12:45", type: "study", location: "studio", intensity: 4, risk: "normal", note: "project work in studio" },
+  { day: "Day 2", time: "14:10", type: "phone_use", location: "studio", intensity: 5, risk: "anomaly", note: "repeated phone checking during work" },
+  { day: "Day 2", time: "19:20", type: "return_home", location: "front door", intensity: 3, risk: "flagged", note: "arrived back home" },
+  { day: "Day 2", time: "21:15", type: "cinema", location: "outside", intensity: 3, risk: "flagged", note: "went out in the evening" },
+  { day: "Day 2", time: "01:05", type: "screen_activity", location: "bedroom", intensity: 5, risk: "anomaly", note: "awake and browsing too late" },
+
+  { day: "Day 3", time: "07:55", type: "wake", location: "bedroom", intensity: 2, risk: "normal", note: "brief phone check after waking" },
+  { day: "Day 3", time: "08:45", type: "laundry", location: "utility", intensity: 2, risk: "normal", note: "washing clothes and bedding" },
+  { day: "Day 3", time: "10:15", type: "study", location: "desk", intensity: 4, risk: "normal", note: "working from home on assignment" },
+  { day: "Day 3", time: "12:30", type: "phone_use", location: "desk", intensity: 4, risk: "flagged", note: "interruptive message checking" },
+  { day: "Day 3", time: "15:20", type: "leave_home", location: "front door", intensity: 3, risk: "flagged", note: "went out for groceries" },
+  { day: "Day 3", time: "16:05", type: "return_home", location: "front door", intensity: 3, risk: "flagged", note: "returned with shopping" },
+  { day: "Day 3", time: "18:40", type: "kitchen", location: "kitchen", intensity: 2, risk: "normal", note: "cooked dinner" },
+  { day: "Day 3", time: "22:25", type: "shower", location: "bathroom", intensity: 2, risk: "normal", note: "late shower after working" },
+  { day: "Day 3", time: "23:45", type: "screen_activity", location: "bedroom", intensity: 5, risk: "anomaly", note: "late browsing session" }
+];
