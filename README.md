@@ -2,7 +2,7 @@
 
 ## Name, Date, Author
 - Name: Haoming Li
-- Date: 16 March 2026
+- Date: 1 March 2026
 
 ## Instructions
 - Open `index.html` (recommended: VS Code Live Server)
